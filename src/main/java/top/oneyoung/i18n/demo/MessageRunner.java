@@ -23,6 +23,6 @@ public class MessageRunner implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
         log.error(ErrorMessage.of("ONEYOUNG-EXCEPTION").getMessage());
-        log.error(ErrorMessage.of(Locale.CHINA,"ONEYOUNG-EXCEPTION").getMessage());
+        log.error(ErrorMessage.of(Locale.US,"ONEYOUNG-EXCEPTION").getMessage());
     }
 }
